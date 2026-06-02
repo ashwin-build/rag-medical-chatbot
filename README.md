@@ -1,23 +1,61 @@
-# 🏥 RAG-based Medical Chatbot
+# 🚑 RAG Medical Chatbot
 
-## 📌 Overview
-This project uses Retrieval-Augmented Generation (RAG) to analyze user symptoms and provide basic medical insights.
+A Retrieval-Augmented Generation (RAG) medical chatbot that retrieves relevant medical context and generates grounded responses using an LLM workflow.
 
-## ⚙️ Features
-- Symptom-based query system
-- Context-aware responses using RAG
-- Emergency detection (chest pain, breathing issues)
-- Disclaimer for safe usage
+## Overview
 
-## 🛠️ Tech Stack
+This project explores how Retrieval-Augmented Generation can improve medical question answering by combining:
+
+- semantic embeddings
+- vector retrieval
+- context-aware generation
+- modular retrieval pipelines
+
+Instead of relying only on an LLM’s memory, the system retrieves relevant medical information before generating responses.
+
+---
+
+## Tech Stack
+
 - Python
-- FAISS (Vector DB)
-- Sentence Transformers (Embeddings)
-- OpenAI API / LLM
+- RAG Pipeline
+- Embeddings
+- Vector Store
+- Retrieval Workflows
+- LLM Integration
 
-## ▶️ How to Run
-pip install -r requirements.txt
-python app.py
+---
 
-## ⚠️ Disclaimer
-This is not a medical diagnosis system. It is for educational purposes only.
+## Project Structure
+
+txt rag-medical-chatbot/ │── app.py                # Main application │── chatbot.py            # Chatbot orchestration │── data_loader.py        # Medical document loading │── embedder.py           # Embedding generation │── retriever.py          # Retrieval logic │── vector_store.py       # Vector database handling │── requirements.txt │── README.md 
+
+---
+
+## Features
+
+✔️ Medical document retrieval  
+✔️ Embedding-based semantic search  
+✔️ Context-aware response generation  
+✔️ Modular RAG architecture  
+✔️ Separated retrieval + generation workflow
+
+---
+
+## Installation
+
+bash git clone <repo-url> cd rag-medical-chatbot pip install -r requirements.txt 
+
+## Run
+
+bash python app.py 
+
+---
+
+## Future Improvements
+
+- Streamlit deployment
+- FAISS / ChromaDB integration
+- Better retrieval evaluation
+- Multi-document support
+- Improved UI
