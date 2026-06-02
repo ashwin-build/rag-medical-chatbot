@@ -14,6 +14,9 @@ This project explores how Retrieval-Augmented Generation can improve medical que
 Instead of relying only on an LLM’s memory, the system retrieves relevant medical information before generating responses.
 
 ---
+## 🚀 Live Demo
+
+https://cws6o4shmewd8seapnb4ru.streamlit.app/
 
 ## Tech Stack
 
@@ -59,3 +62,10 @@ bash python app.py
 - Better retrieval evaluation
 - Multi-document support
 - Improved UI
+
+  ## Screenshots
+  <img width="1440" height="820" alt="Screenshot 2026-06-02 at 1 01 35 PM" src="https://github.com/user-attachments/assets/969e381a-9d70-4176-b475-bc5b11b7e1aa" />
+  <img width="1437" height="815" alt="Screenshot 2026-06-02 at 1 02 20 PM" src="https://github.com/user-attachments/assets/405689d4-4ed3-4bdf-b8ef-f48100d07811" />
+<img width="1434" height="818" alt="Screenshot 2026-06-02 at 1 02 42 PM" src="https://github.com/user-attachments/assets/eb09ffdf-4f5f-4840-af25-d7b60a94d645" />
+
+
